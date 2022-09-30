@@ -17,10 +17,7 @@ class Drop {
 
     //the posetion of theballs
     y += speedY;
-    // checking that the balls are generated in bounds
-    if (y > height +r) {
-      y = -r;
-    }
+    
   }
 
   void display() {
